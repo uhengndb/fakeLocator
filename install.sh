@@ -11,4 +11,5 @@ clear
 printf "\e[1;93m[*] Enter Ngrok Authentication Token : \e[1;94m"
 read token
 ./ngrok authtoken $token
+touch ip.txt
 printf "\e[1;93m[*] Installation Completed.\e[0m\n"
