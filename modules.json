@@ -1,0 +1,20 @@
+{
+   "facebook":{
+     "metadata" : "<meta charset='utf-8'><meta name='referrer' content='origin-when-crossorigin' id='meta_referrer'><meta property='og:site_name' content='Facebook'><meta property='og:url' content='https://www.facebook.com/'><meta property='og:image' content='https://www.facebook.com/images/fb_icon_325x325.png'><meta content='View Private Account - View personal details about your friends and relatives. Share them anywhere.' name='description'>",
+      "site" : "facebook.com",
+      "title" : "Facebook",
+      "discription" : "It use facebook meta information."
+    },
+   "mgsu":{
+     "metadata" : "<meta http-equiv='content-type' content='text/html; charset=utf-8'/><meta property='og:image' content='mgsu.jpg'><meta content='New notification about your exams.' name='description'",
+      "site" : "mgsubikaner.ac.in",
+      "title" : "Welcome To MGSU",
+      "discription" : "It use mgsu meta information."
+    },
+   "instagram":{
+     "metadata" : "<meta http-equiv='content-type' content='text/html; charset=utf-8'/><meta property='og:site_name' content='Instagram'><meta property='og:title' content='Instagram'><meta property='og:image' content='https://www.instagram.com/static/images/ico/favicon-200.png/ab6eff595bb1.png'><meta content='View Private Account - A simple, fun &amp; creative way to capture, edit &amp; share photos, videos &amp; messages with friends &amp; family.' name='description'>",
+      "site" : "instagram.com",
+      "title" : "Instagram",
+      "discription" : "instagram meta info"
+    }
+}
